@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carsen#1 2</title>
+    <link rel="stylesheet" href="test.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Plain background -->
+    <div id="section1">
+        <section>
+            <h1 class="title">SHIELD<span class="X">X</span></h1>
+        </section>
+        <h2 class="title-lower">REINFORCING HOMES WEAKEST POINTS</h2>
+    </div>
+
+    <!-- Section 2: Fixed background with Click Button -->
+    <div id="section2">
+        <button id="scrollButton1" onclick="scrollToReviews()">Click Me!</button>
+        <button id="scrollButton1" onclick="scrollToReviews()">Click Me!</button>
+        <button id="scrollButton1" onclick="scrollToReviews()">Click Me!</button>
+    </div>
+
+    
+
+    <!-- Section 3: Fixed background with Reviews -->
+    <div id="section3">
+        <div class="info">Info #1</div>
+        <div class="info">Info #2</div>
+        <div class="info">Info #3</div>
+    </div>
+
+    <script>
+        function scrollToReviews() {
+            document.getElementById("section3").scrollIntoView({ behavior: "smooth" });
+        }
+
+        // Function to detect when you're within 100px of the center of Section 2
+        window.addEventListener('scroll', function() {
+            const section2 = document.getElementById('section2');
+            const section2Center = section2.offsetTop + (section2.offsetHeight / 2);
+            const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+            if (Math.abs(scrollPosition - section2Center) < 100) {
+                // Show buttons if within 100px of center
+                document.getElementById('scrollButton1').style.display = 'inline-block';
+                document.getElementById('scrollButton2').style.display = 'inline-block';
+                document.getElementById('scrollButton3').style.display = 'inline-block';
+            } else {
+                // Hide buttons when not near the center
+                document.getElementById('scrollButton1').style.display = 'none';
+                document.getElementById('scrollButton2').style.display = 'none';
+                document.getElementById('scrollButton3').style.display = 'none';
+            }
+        });
+    </script>
+    
+</body>
+</html>

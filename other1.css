@@ -1,0 +1,1642 @@
+@media (hover: none) and (max-width: 1025px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(23, 23, 23, 0.769);
+    overflow: hidden;
+  }
+
+  #section1-contact {
+    padding: 100px 10px;
+  }
+
+  .title-contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    text-align: center;
+    color: #d2cfcf;
+    font-size: 5.2rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: block;
+    animation: dropDown 1.5s ease-out forwards;
+  }
+
+  .line {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 350px;
+    height: 3px;
+  }
+
+
+  .section2 {
+    padding: 20px;
+    flex-direction: column;
+    margin-bottom: 20vh;
+    /* Inner padding for sections */
+  }
+
+  .section2 h2 {
+    font-size: 4rem;
+  }
+
+  .line2 {
+    width: 400px;
+    height: 3px;
+    margin-bottom: 10px;
+  }
+
+  .section2 p {
+    font-size: 2rem;
+    padding: 35px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .image2 {
+    margin: 0;
+  }
+
+  .text2 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .image2 img {
+    margin: 0;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image1:hover,
+  .image2:hover,
+  .image3:hover,
+  .image4:hover,
+  .image5:hover,
+  .image6:hover,
+  .image7:hover,
+  .image8:hover {
+    transform: none;
+  }
+
+
+  .quote-section {
+    height: 35vh;
+  }
+
+  .quote-text {
+    padding: 5vh;
+    font-size: 36px;
+  }
+
+  .line-quote {
+    height: 3px;
+    margin-top: 2vh;
+  }
+
+  #contact-box {
+    background-color: rgba(208, 206, 206, 0.835);
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    gap: 20px;
+  }
+
+  .contact-left {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .contact-right {
+    display: none;
+  }
+
+  .contact-h3 {
+    font-size: 5rem;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-row {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 15px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  textarea {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    background-color: rgb(180, 156, 90);
+    color: black;
+    border: none;
+    font-size: 22px;
+    height: 3.7vh;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px 0px rgb(101, 88, 58);
+    background-color: rgb(164, 142, 82);
+  }
+}
+
+@media (hover: none) and (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(23, 23, 23, 0.769);
+    overflow: hidden;
+  }
+
+  #section1-contact {
+    padding: 100px 10px;
+  }
+
+  .title-contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    text-align: center;
+    color: #d2cfcf;
+    font-size: 5.2rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: block;
+    animation: dropDown 1.5s ease-out forwards;
+  }
+
+  .line {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 350px;
+    height: 3px;
+  }
+
+
+  .section2 {
+    padding: 20px;
+    flex-direction: column;
+    margin-bottom: 20vh;
+    /* Inner padding for sections */
+  }
+
+  .section2 h2 {
+    font-size: 4rem;
+  }
+
+  .line2 {
+    width: 400px;
+    height: 3px;
+    margin-bottom: 10px;
+  }
+
+  .section2 p {
+    font-size: 2rem;
+    padding: 35px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .image2 {
+    margin: 0;
+  }
+
+  .text2 {
+    padding: 0;
+    text-align: center;
+  }
+
+  .image2 img {
+    margin: 0;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image1:hover,
+  .image2:hover,
+  .image3:hover,
+  .image4:hover,
+  .image5:hover,
+  .image6:hover,
+  .image7:hover,
+  .image8:hover {
+    transform: none;
+  }
+
+
+  .quote-section {
+    height: 35vh;
+  }
+
+  .quote-text {
+    padding: 5vh;
+    font-size: 36px;
+  }
+
+  .line-quote {
+    height: 3px;
+    margin-top: 2vh;
+  }
+
+  #contact-box {
+    background-color: rgba(208, 206, 206, 0.835);
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    gap: 20px;
+  }
+
+  .contact-left {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .contact-right {
+    display: none;
+  }
+
+  .contact-h3 {
+    font-size: 5rem;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-row {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 15px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  textarea {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    background-color: rgb(180, 156, 90);
+    color: black;
+    border: none;
+    font-size: 22px;
+    height: 3.7vh;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px 0px rgb(101, 88, 58);
+    background-color: rgb(164, 142, 82);
+  }
+}
+
+@media (hover: none) and (max-width: 800px){
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(23, 23, 23, 0.769);
+  overflow: hidden;
+}
+
+  #section1-contact {
+    padding: 100px 10px;
+  }
+
+  .title-contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    text-align: center;
+    color: #d2cfcf;
+    font-size: 5.2rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: block;
+    animation: dropDown 1.5s ease-out forwards;
+  }
+
+  .line {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 350px;
+    height: 3px;
+  }
+    
+    
+        .section2 {
+          padding: 20px;
+          flex-direction: column;
+          margin-bottom: 20vh;
+          /* Inner padding for sections */
+        }
+        .section2 h2{
+          font-size: 4rem;
+        }
+        .line2{
+          width: 400px;
+          height: 3px;
+          margin-bottom: 10px;
+        }
+        .section2 p{
+          font-size: 2rem;
+          padding: 35px;
+          line-height: 1.7;
+          margin: 0;
+        }
+        .image2{
+          margin: 0;
+        }
+        .text2{
+          padding: 0;
+          text-align: center;
+        }
+        .image2 img{
+          margin: 0;
+          max-width: 600px;
+          align-items: center;
+          justify-content: center;
+        }
+    .image1:hover,
+    .image2:hover,
+    .image3:hover,
+    .image4:hover,
+    .image5:hover,
+    .image6:hover,
+    .image7:hover,
+    .image8:hover {
+      transform: none;
+    }
+
+
+  .quote-section{
+    height: 35vh;
+  }
+  .quote-text{
+    padding: 5vh;
+    font-size: 36px;
+  }
+  .line-quote{
+    height: 3px;
+    margin-top: 2vh;
+  }
+  #contact-box {
+    background-color: rgba(208, 206, 206, 0.835);
+    display: flex;
+    flex-direction: column;
+    padding:10vh 10vw;
+    gap: 20px;
+  }
+
+  .contact-left {
+    width: 100%; 
+    padding: 0 10px;
+  }
+  .contact-right {
+    display: none;
+  }
+  .contact-h3 {
+    font-size: 5rem;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .input-row {
+    flex-direction: column; 
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .input-group {
+    width: 100%; 
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 15px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+  textarea {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    background-color: rgb(180, 156, 90);
+    color: black;
+    border: none;
+    font-size: 16px;
+    height: 3vh;
+  }
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px 0px rgb(101, 88, 58);
+    background-color: rgb(164, 142, 82);
+  }
+}
+
+@media (hover: none) and (max-width: 700px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: rgba(23, 23, 23, 0.769);
+    overflow: hidden;
+  }
+
+  #section1-contact {
+    padding: 100px 10px;
+  }
+
+  .title-contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    text-align: center;
+    color: #d2cfcf;
+    font-size: 4.8rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: block;
+    animation: dropDown 1.5s ease-out forwards;
+  }
+
+  .line {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 350px;
+    height: 3px;
+  }
+
+
+  .section2 {
+    padding: 20px;
+    flex-direction: column;
+    margin-bottom: 15vh;
+    /* Inner padding for sections */
+  }
+
+  .section2 {
+    font-size: 24rem;
+  }
+
+  .line2 {
+    width: 400px;
+    height: 3px;
+    margin-bottom: 5px;
+  }
+
+  .section2 p {
+    font-size: 1.8rem;
+    padding: 35px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .image2 {
+    margin: 0;
+  }
+
+  .text2 h2 {
+    font-size: 4rem;
+  }
+
+  .text2 {
+    padding: 0;
+    text-align: center;
+
+  }
+
+  .image2 img {
+    margin: 0;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #image8 {
+    max-width: 400px;
+  }
+
+  .image1:hover,
+  .image2:hover,
+  .image3:hover,
+  .image4:hover,
+  .image5:hover,
+  .image6:hover,
+  .image7:hover,
+  .image8:hover {
+    transform: none;
+  }
+
+  .quote-section {
+    height: 40vh;
+  }
+
+  .quote-text {
+    padding: 5vh;
+    font-size: 36px;
+  }
+
+  .line-quote {
+    height: 3px;
+    margin-top: 2vh;
+  }
+
+  #contact-box {
+    background-color: rgba(208, 206, 206, 0.835);
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    gap: 20px;
+  }
+
+  .contact-left {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .contact-right {
+    display: none;
+  }
+
+  .contact-h3 {
+    font-size: 5rem;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-row {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 15px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  textarea {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    background-color: rgb(180, 156, 90);
+    color: black;
+    border: none;
+    font-size: 16px;
+    height: 3vh;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px 0px rgb(101, 88, 58);
+    background-color: rgb(164, 142, 82);
+  }
+}
+
+@media (hover: none) and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: rgba(23, 23, 23, 0.769);
+    overflow: hidden;
+  }
+
+  #section1-contact {
+    padding: 100px 10px;
+  }
+
+  .title-contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    text-align: center;
+    color: #d2cfcf;
+    font-size: 4.8rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: block;
+    animation: dropDown 1.5s ease-out forwards;
+  }
+
+  .line {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 350px;
+    height: 3px;
+  }
+
+
+  .section2 {
+    padding: 20px;
+    flex-direction: column;
+    margin-bottom: 15vh;
+    /* Inner padding for sections */
+  }
+
+  .section2 {
+    font-size: 24rem;
+  }
+
+  .line2 {
+    width: 400px;
+    height: 3px;
+    margin-bottom: 5px;
+  }
+
+  .section2 p {
+    font-size: 1.8rem;
+    padding: 35px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .image2 {
+    margin: 0;
+  }
+
+  .text2 h2 {
+    font-size: 4rem;
+  }
+
+  .text2 {
+    padding: 0;
+    text-align: center;
+
+  }
+  .image2 img {
+    margin: 0;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  #image8{
+    max-width: 400px;
+  }
+  .image1:hover,
+  .image2:hover,
+  .image3:hover,
+  .image4:hover,
+  .image5:hover,
+  .image6:hover,
+  .image7:hover,
+  .image8:hover {
+    transform: none;
+  }
+
+  .quote-section {
+    height: 40vh;
+  }
+
+  .quote-text {
+    padding: 5vh;
+    font-size: 36px;
+  }
+
+  .line-quote {
+    height: 3px;
+    margin-top: 2vh;
+  }
+
+  #contact-box {
+    background-color: rgba(208, 206, 206, 0.835);
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    gap: 20px;
+  }
+
+  .contact-left {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .contact-right {
+    display: none;
+  }
+
+  .contact-h3 {
+    font-size: 5rem;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-row {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 15px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  textarea {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    background-color: rgb(180, 156, 90);
+    color: black;
+    border: none;
+    font-size: 16px;
+    height: 3vh;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px 0px rgb(101, 88, 58);
+    background-color: rgb(164, 142, 82);
+  }
+}
+
+@media (hover: none) and (max-width: 541px) {
+  #section1-contact {
+    padding: 100px 10px;
+  }
+
+  .title-contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    text-align: center;
+    color: #d2cfcf;
+    font-size: 3.5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: block;
+    animation: dropDown 1.5s ease-out forwards;
+  }
+
+  .line {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 350px;
+    height: 3px;
+  }
+
+
+  .section2 {
+    padding: 20px;
+    flex-direction: column;
+    margin-bottom: 13vh;
+    /* Inner padding for sections */
+  }
+
+  .line2 {
+    width: 250px;
+    height: 3px;
+    margin-bottom: 5px;
+  }
+
+  .section2 p {
+    font-size: 1.3rem;
+    padding: 25px;
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  .image2 {
+    margin: 0;
+  }
+
+  .text2 h2 {
+    font-size: 2.5rem;
+    margin-top: 2vh;
+  }
+
+  .text2 {
+    padding: 0;
+    text-align: center;
+
+  }
+
+  .image2 img {
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #image8 {
+    max-width: 200px;
+  }
+
+  .image1:hover,
+  .image2:hover,
+  .image3:hover,
+  .image4:hover,
+  .image5:hover,
+  .image6:hover,
+  .image7:hover,
+  .image8:hover {
+    transform: none;
+  }
+
+  .quote-section {
+    padding: 10px;
+    height: auto;
+    border: 2px solid rgb(164, 142, 82);
+  }
+
+  .quote-text {
+    padding: 5vh;
+    font-size: 1.3rem;
+
+  }
+
+  .line-quote {
+    width: 250px;
+    height: 3px;
+    margin-top: 2vh;
+  }
+
+  #contact-box {
+    background-color: rgba(208, 206, 206, 0.835);
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    gap: 20px;
+  }
+
+  .contact-left {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .contact-right {
+    display: none;
+  }
+
+  .contact-h3 {
+    font-size: 3.5rem;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-row {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 8px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  textarea {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    background-color: rgb(180, 156, 90);
+    color: black;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button:hover {
+    transform: none;
+  }
+}
+
+@media (hover: none) and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: rgba(23, 23, 23, 0.769);
+    overflow: hidden;
+  }
+
+  #section1-contact {
+    padding: 100px 10px;
+  }
+
+  .title-contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    text-align: center;
+    color: #d2cfcf;
+    font-size: 3.5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: block;
+    animation: dropDown 1.5s ease-out forwards;
+  }
+
+  .line {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 350px;
+    height: 3px;
+  }
+
+
+  .section2 {
+    padding: 20px;
+    flex-direction: column;
+    margin-bottom: 13vh;
+    /* Inner padding for sections */
+  }
+
+  .line2 {
+    width: 250px;
+    height: 3px;
+    margin-bottom: 5px;
+  }
+
+  .section2 p {
+    font-size: 1rem;
+    padding: 25px;
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  .image2 {
+    margin: 0;
+  }
+
+  .text2 h2 {
+    font-size: 2.5rem;
+    margin-top: 2vh;
+  }
+
+  .text2 {
+    padding: 0;
+    text-align: center;
+
+  }
+
+  .image2 img {
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #image8 {
+    max-width: 200px;
+  }
+
+  .image1:hover,
+  .image2:hover,
+  .image3:hover,
+  .image4:hover,
+  .image5:hover,
+  .image6:hover,
+  .image7:hover,
+  .image8:hover {
+    transform: none;
+  }
+
+  .quote-section {
+    height: auto;
+    border: 2px solid rgb(164, 142, 82);
+  }
+
+  .quote-text {
+    padding: 5vh;
+    font-size: 1.3rem;
+    
+  }
+
+  .line-quote {
+    width: 250px;
+    height: 3px;
+    margin-top: 2vh;
+  }
+
+  #contact-box {
+    background-color: rgba(208, 206, 206, 0.835);
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    gap: 20px;
+  }
+
+  .contact-left {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .contact-right {
+    display: none;
+  }
+
+  .contact-h3 {
+    font-size: 3.5rem;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-row {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 8px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  textarea {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+ button {
+   width: 100%;
+   padding: 22px;
+   border-radius: 30px;
+   cursor: pointer;
+   font-family: "PT Sans", sans-serif;
+   font-weight: 800;
+   background-color: rgb(180, 156, 90);
+   color: black;
+   border: none;
+   font-size: 16px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+  button:hover {
+    transform: none;
+  }
+}
+
+@media (hover: none) and (max-width: 400px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: rgba(23, 23, 23, 0.769);
+    overflow: hidden;
+  }
+
+  #section1-contact {
+    padding: 100px 10px;
+  }
+
+  .title-contact {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    text-align: center;
+    color: #d2cfcf;
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: block;
+    animation: dropDown 1.5s ease-out forwards;
+  }
+
+  .line {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 300px;
+    height: 3px;
+  }
+
+
+  .section2 {
+    padding: 20px;
+    flex-direction: column;
+    margin-bottom: 15vh;
+    /* Inner padding for sections */
+  }
+
+  .section2 {
+    font-size: 24rem;
+  }
+
+  .line2 {
+    width: 200px;
+    height: 3px;
+    margin-bottom: 5px;
+  }
+
+  .section2 p {
+    font-size: 1rem;
+    padding: 35px;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .image2 {
+    margin: 0;
+  }
+
+  .text2 h2 {
+    font-size: 2rem;
+  }
+
+  .text2 {
+    padding: 0;
+    text-align: center;
+
+  }
+
+  .image2 img {
+    margin: 0;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #image8 {
+    max-width: 200px;
+  }
+
+  .image1:hover,
+  .image2:hover,
+  .image3:hover,
+  .image4:hover,
+  .image5:hover,
+  .image6:hover,
+  .image7:hover,
+  .image8:hover {
+    transform: none;
+  }
+
+  .quote-section {
+    height: 40vh;
+  }
+
+  .quote-text {
+    padding: 5vh;
+    font-size: 1.3rem;
+  }
+
+  .line-quote {
+    height: 3px;
+    margin-top: 2vh;
+  }
+
+  #contact-box {
+    background-color: rgba(208, 206, 206, 0.835);
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw;
+    gap: 20px;
+  }
+
+  .contact-left {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .contact-right {
+    display: none;
+  }
+
+  .contact-h3 {
+    font-size: 2.2rem;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-row {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 3px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  textarea {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 800;
+    background-color: rgb(180, 156, 90);
+    color: black;
+    border: none;
+    font-size: 16px;
+    height: 5vh;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px 0px rgb(101, 88, 58);
+    background-color: rgb(164, 142, 82);
+  }
+}

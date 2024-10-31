@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carsen#1</title>
+    <link rel="stylesheet" href="index.css">
+<style>
+/* hi */
+</style>
+</head>
+<body>
+
+    <!-- Section 1: 500px Background Image -->
+    <div id="section1" >
+        <section>
+            <h1 class="title">SHIELD<span class="X">X</span></h1>
+        </section>
+        <h2 class="title-lower">REINFORCING HOMES WEAKEST POINTS</h2>
+    </div>
+
+    <!-- Section 2: Bubbles Background with Scroll Button -->
+    <div id="section2">
+        <button id="scrollButton" onclick="scrollToReviews()">Click Me!</button>
+    </div>
+
+    <!-- Section 3: Reviews Grid -->
+    <div id="section3">
+        <div class="info">Info #1</div>
+        <div class="info">Info #2</div>
+        <div class="info">Info #3</div>
+        <!-- Add more reviews as needed -->
+    </div>
+
+    <script>
+        function scrollToReviews() {
+            document.getElementById("section3").scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
+    <div id="section4">
+        <div></div>
+    </div>
+</body>
+</html>

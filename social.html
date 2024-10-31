@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="navtab.css">
+  <style>
+    #section6 {
+      height: 100px;
+      /* Set height to viewport height for full vertical centering */
+      border-top: solid 2px black;
+      background-color: rgba(81, 80, 80, 0.835);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tabs-container {
+      display: flex;
+      width: 100%;
+      /* Full width */
+      align-items: center;
+      justify-content: space-between;
+      /* Position tabs on left and right */
+    }
+
+    /* Social Tabs (Right Side) */
+    .social-tabs input {
+      display: none;
+    }
+
+    .social-tabs {
+      z-index: 10;
+      background: transparent;
+    }
+
+    .social-tab-link {
+      color: #000000;
+      font-size: 28px;
+      text-decoration: none;
+      font-weight: 800;
+    }
+
+    .social-buttons {
+      display: flex;
+      gap: 65px;
+      height: 58px;
+      width: 350px;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+    }
+
+    .social-button a {
+      width: 20%;
+      font-size: 1.75em;
+      -webkit-text-stroke: 1px #fff;
+      opacity: 0.3;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+
+    .social-buttons a:hover {
+      opacity: 3;
+      filter: drop-shadow(0 0 10px #f6f6f6) drop-shadow(0 0 20px #fff);
+      cursor: pointer;
+      font-size: 25px;
+    }
+
+    /* Bottom Tabs (Left Side) */
+    .bottom-tabs input {
+      display: none;
+    }
+
+    .bottom-tabs {
+      z-index: 10;
+      background: transparent;
+    }
+
+    .bottom-tab-link {
+      color: #000000;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .bottom-buttons {
+      display: flex;
+      gap: 55px;
+      height: 58px;
+      width: 540px;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+    }
+
+    .bottom-button a {
+      width: 20%;
+      font-size: 1.75em;
+      -webkit-text-stroke: 1px #fff;
+      opacity: 0.3;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+
+    .bottom-buttons a:hover {
+      opacity: 3;
+      filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff);
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="section6">
+    <div class="tabs-container">
+      <!-- Bottom Tabs (Left) -->
+      <div class="bottom-tabs">
+        <input id="home" type="radio" name="tabsMenu">
+        <input id="contact" type="radio" name="tabsMenu">
+        <input id="services" type="radio" name="tabsMenu">
+        <input id="our-work" type="radio" name="tabsMenu">
+        <input id="book-online" type="radio" name="tabsMenu">
+
+        <div class="bottom-buttons">
+          <a class="bottom-tab-link" href="test1.html" target="_blank"><label for="home"><i
+                class="fa-solid fa-house"></i></label></a>
+          <a class="bottom-tab-link" href="contact.html" target="_blank"><label for="contact"> Contact</label></a>
+          <a class="bottom-tab-link" href="services.html" target="_blank"><label for="services">Service</label></a>
+          <a class="bottom-tab-link" href="ourwork.html" target="_blank"><label for="our-work">Our Work</label></a>
+          <a class="bottom-tab-link" href="book.html" target="_blank"><label for="book-online">Book Online</label></a>
+        </div>
+      </div>
+
+      <!-- Social Tabs (Right) -->
+      <div class="social-tabs">
+        <input id="insta" type="radio" name="tabsMenu">
+        <input id="youtube" type="radio" name="tabsMenu">
+        <input id="facebook" type="radio" name="tabsMenu">
+        <input id="tiktok" type="radio" name="tabsMenu">
+
+        <div class="social-buttons">
+          <a class="social-tab-link" href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <a class="social-tab-link" href="https://www.youtube.com" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a class="social-tab-link" href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a class="social-tab-link" href="https://www.tiktok.com/explore" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

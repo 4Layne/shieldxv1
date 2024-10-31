@@ -1,0 +1,2166 @@
+photo
+diminsion for phone 414 x 896. Take in count for height, use chatgpt for instructions
+
+
+
+
+https://a1garagedoorservicephoenix.com/home/?utm_source=google&utm_medium=cpc&utm_campaign=A1G-PHX-EN-PPC-Google-Brand-TN-Active&utm_agid=157818970281&utm_term=a1%20garage&utm_content=A1G-PHX-EN-PPC-Google-Brand-SE-Active&gad_source=1&gclid=CjwKCAjwmaO4BhAhEiwA5p4YL6Lgx1f-HhxKYfz0QdJ_dRvw59-zTGK8naeYn8LbsAHMEWB74wIByxoCWhIQAvD_BwE&gclsrc=aw.ds
+
+
+(#container2{
+max-width: 1400px;
+margin: 0 auto;
+margin-bottom: 15vh;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.container2-link{
+line-height: 20vh;
+color: #000;
+font-family: "PT Sans", sans-serif;
+font-weight: 800;
+font-style: normal;
+text-align: center;
+text-decoration: none;
+color: white;
+}
+.container2-link:hover{
+opacity: 1;
+text-shadow: 1px 1px 14px rgba(0, 0, 0, 0.775);
+}
+.section2{
+margin: 10vh 10vh;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.image2 {
+flex: 1;
+padding-right: 20px;
+}
+
+.image2 img {
+max-width: 650px;
+margin-right: 5vh;
+height: auto;
+border: 4px solid;
+border-color: rgb(180, 156, 90);
+}
+.text2 {
+flex: 1;
+text-align: center;
+font-family: "PT Sans", sans-serif;
+font-weight: 800;
+font-style: normal;
+background-color: rgba(23, 23, 23, 0.769);
+}
+.text2 h2 {
+margin-top: 10vh;
+font-size: 2rem;
+margin-bottom: 10px;
+text-align: center;
+color: white;
+}
+.text2 p {
+font-size: 1rem;
+line-height: 1.5;
+color: white;
+})
+<!--(<div class="section2">
+    <div class="image2">
+  <img src="photo/house3.png" alt="Door Reinforcement">
+    </div>
+    <div class="text2">
+      <h2>Door Reinforcement</h2>
+      <p>
+        We team up with Night Lock to strengthen the door security, safeguarding your home and or business against break-ins. Providing a
+        barricade to protect your valuables, product, loved ones/customers and overall safty!<br>
+
+        <a  class="container2-link" href="ourwork.html#section1" target="_blank">Learn More!</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="section2">
+    <div class="image2">
+    <a href="ourwork.html#section2" target="_blank"><img src="photo/house3.png" alt="Glass Reinforcement"></a>
+    </div>
+    <div class="text2">
+      <h2>Glass Reinforcement</h2>
+      <p>
+        Applying security film to glass greatly enhances its structural integrity, making it much more difficult to break and
+        gain access to the interior of the building or home.<br>
+        
+        <a class="container2-link" href="ourwork.html#section2" target="_blank">Learn More!</a>
+    </p>
+    </div>
+  </div>
+
+  <div class="section2">
+    <div class="image2">
+    <a href="ourwork.html#section3" target="_blank"><img src="photo/house3.png" alt="Image 3"></a>
+    </div>
+    <div class="text2">
+      <h2>Window Frame Reinforcement</h2>
+      <p>
+        Windows are often considered one of the most vulnerable areas of a home. By applying security film, we not only
+        reinforce the glass themselves but also enhance the strength of the window frames and hardware.<br>
+        
+        <a  class="container2-link" href="ourwork.html#section3" target="_blank">Learn More!</a>
+    </p>
+    </div>
+  </div>)-->
+
+
+<!--this is the service slide
+<div id="container2">
+  <div class="slideshow-container">
+     Slide 1 
+    <div class="mySlides fade">
+      <img src="photo/house2.png" alt="Image 1" class="slide-image">
+      <div class="text">Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text)</div>
+    </div>
+
+    Slide 2
+    <div class="mySlides fade">
+      <img src="photo/house3.png" alt="Image 2" class="slide-image">
+      <div class="text">Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text)</div>
+    </div>
+
+     Slide 3 
+    <div class="mySlides fade">
+      <img src="photo/Modern-house.jpg" alt="Image 3" class="slide-image">
+      <div class="text">Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) </div>
+    </div>
+
+   Navigation Arrows
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+
+<div id="container2">
+  <div class="slideshow-container">
+   Slide 1 
+    <div class="mySlides fade">
+      <img src="photo/house2.png" alt="Image 1" class="slide-image">
+      <div class="text">Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement
+        (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text)
+        Door Reinforcement (text)</div>
+    </div>
+
+     Slide 2 
+    <div class="mySlides fade">
+      <img src="photo/house3.png" alt="Image 2" class="slide-image">
+      <div class="text">Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement
+        (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text)
+        Door Reinforcement (text)</div>
+    </div>
+
+     Slide 3 
+    <div class="mySlides fade">
+      <img src="photo/Modern-house.jpg" alt="Image 3" class="slide-image">
+      <div class="text">Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement (text) Door Reinforcement
+        (text) Door Reinforcement (text) Door Reinforcement (text) </div>
+    </div>
+
+    Navigation Arrows 
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+-->
+
+
+
+<!--
+  <form id="projectForm" action="https://formspree.io/f/xlderznj" method="POST">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" autocomplete="name" required><br><br>
+  
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" autocomplete="email" required><br><br>
+  
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" autocomplete="tel" required><br><br>
+  
+    <label for="summary">Project Summary:</label><br>
+    <textarea id="summary" name="summary" autocomplete="off" rows="5" required></textarea><br><br>
+  
+    <input type="submit" value="Send">
+  </form>
+-->
+
+
+If you prefer handling the email sending directly from JavaScript without relying on Formspree or similar services, you can use SMTPJS. However, this method involves exposing your SMTP credentials in client-side code, which poses significant security risks. I strongly recommend using Formspree or similar services instead.
+
+If you still want to proceed with SMTPJS, here's how:
+
+a. Using SMTPJS
+Sign Up for an Email Service: You'll need SMTP server details. Services like Gmail, SendGrid, or Mailgun can be used. Be aware of their security and rate limits.
+
+Include SMTPJS in Your HTML:
+
+Add the SMTPJS script to your HTML <head>:
+
+html
+Copy code
+<!--<script src="https://smtpjs.com/v3/smtp.js"></script>
+Modify Your Form and JavaScript:
+
+html
+Copy code
+<form id="projectForm">
+  <!-- form fields -->
+ <!-- <input type="submit" value="Send">
+</form>
+
+<script>
+  const form = document.getElementById('projectForm');
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const summary = document.getElementById("summary").value;
+
+    Email.send({
+      SecureToken: "YOUR_SECURE_TOKEN",
+      To: 'deckercasey003@gmail.com',
+      From: email,
+      Subject: "New Project Submission from " + name,
+      Body: `
+        Name: ${name}<br>
+        Email: ${email}<br>
+        Phone: ${phone}<br><br>
+        Project Summary:<br>
+        ${summary}
+      `
+    }).then(
+      message => {
+        if (message === 'OK') {
+          alert('Email successfully sent!');
+          form.reset();
+        } else {
+          alert('Failed to send email.');
+        }
+      }
+    );
+  });
+</script>
+Obtain a Secure Token:
+
+Visit SMTPJS.com and follow the instructions to generate a SecureToken. This token allows you to send emails without exposing your SMTP credentials.
+
+Important: Never expose your actual SMTP username and password in client-side code. Using a SecureToken provided by SMTPJS is a safer approach.
+
+Security Considerations:
+
+Even with SecureToken, exposing any email sending mechanism on the client-side can lead to potential misuse or spam. It's crucial to implement additional security measures, such as CAPTCHA or rate limiting, to protect your form from abuse.
+Given these risks, using Formspree or a similar service remains the recommended approach.
+
+6. Final Recommendations
+Use Formspree: It's secure, easy to set up, and doesn't require you to manage backend code or expose sensitive credentials.
+
+Deploying Your Site: When you're ready to make your site live, ensure that your domain is correctly configured with Formspree and that you've confirmed your email address.
+
+Testing: Always test your form after setup to ensure that emails are being sent and received as expected.
+
+7. Additional Tips
+Styling Success and Error Messages: Instead of using alert(), you can display success or error messages within your HTML for a better user experience.
+
+Form Validation: While HTML5 provides basic validation (e.g., required attributes), consider adding additional client-side validation using JavaScript for enhanced user feedback.
+
+Accessibility: Ensure your form is accessible by using proper labels and ARIA attributes where necessary.
+
+Example: Enhanced Form with In-Page Messages
+Here's how you can enhance the form to display messages within the page instead of using alert():
+
+html
+Copy code
+<!-- Add this div below the form to display messages -->
+<!--<div id="form-messages"></div>
+
+<form id="projectForm" action="https://formspree.io/f/your-form-id" method="POST">
+  <!-- form fields -->
+<!--  <input type="submit" value="Send">
+</form>
+
+<script>
+  const form = document.getElementById('projectForm');
+  const formMessages = document.getElementById('form-messages');
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+      .then(response => {
+        if (response.ok) {
+          formMessages.innerHTML = '<p class="success">Email successfully sent!</p>';
+          form.reset();
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              formMessages.innerHTML = `<p class="error">${data["errors"].map(error => error["message"]).join(", ")}</p>`;
+            } else {
+              formMessages.innerHTML = '<p class="error">Oops! There was a problem submitting your form.</p>';
+            }
+          });
+        }
+      })
+      .catch(error => {
+        formMessages.innerHTML = '<p class="error">Oops! There was a problem submitting your form.</p>';
+      });
+  });
+</script>
+
+<style>
+  /* Add some basic styling for messages */
+  #form-messages p {
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+</style> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+nav {
+width: 100%;
+}
+
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgbargba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 900px) {
+nav{
+width: 100%;
+}
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgbargba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgbargba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 700px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 500px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 56px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 200px;
+overflow: hidden;
+transition: height 0.6s ease;
+border-radius: 3px;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 280px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 50vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 2.5rem;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 0.8rem;
+}
+
+.phone,
+.email {
+font-size: 1rem;
+text-decoration: none;
+}
+}
+
+@media screen and (max-width: 400px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 56px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 200px;
+overflow: hidden;
+transition: height 0.6s ease;
+border-radius: 3px;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 280px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 50vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 2.5rem;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 0.8rem;
+}
+
+.phone,
+.email {
+font-size: 1rem;
+text-decoration: none;
+}
+}
+
+
+
+
+
+
+@media screen and (max-height: 900px) {
+ul {
+width: 100%;
+position: absolute;
+top: 55px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 200px;
+overflow: hidden;
+transition: height 0.7s ease;
+border-radius: 3px;
+}
+}
+
+@media screen and (max-height: 897px) {
+ul {
+width: 100%;
+position: absolute;
+top: 54.8px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 200px;
+overflow: hidden;
+transition: height 0.7s ease;
+border-radius: 3px;
+}
+}
+
+@media screen and (max-height: 800px) {
+ul {
+width: 100%;
+position: absolute;
+top: 52px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 180px;
+overflow: hidden;
+transition: height 0.7s ease;
+border-radius: 3px;
+}
+
+}
+
+
+
+
+  <ul id="nav-links-social">
+    <li> <a href="#section1"><i style="color: #907c47;" class="fa-solid fa-house"></i> </a></li>
+    <li> <a href="#section4-5">About </a></li>
+    <li> <a href="ourwork.html" target="_blank">Services </a></li>
+    <li> <a href="#section4">Our Work </a></li>
+    <li> <a href="ourwork.html" target="_blank">Contact </a></li>
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000;
+background: linear-gradient(45deg, rgb(46, 45, 45), #000000ab, rgba(43, 42, 42, 0.876), #0505055c);
+background-size: 300% 300%;
+background-position: center;
+animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+0% {
+background-position: 0% 50%;
+}
+
+50% {
+background-position: 100% 50%;
+}
+
+100% {
+background-position: 0% 50%;
+}
+}
+
+.hamburger {
+display: none;
+flex-direction: column;
+cursor: pointer;
+}
+
+.hamburger div {
+width: 30px;
+height: 3px;
+background-color: rgb(180, 156, 90);
+margin: 5px 0;
+transition: 0.4s;
+}
+ul {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+ul li {
+display: inline-block;
+}
+ul li a {
+color: #d2cfcf;
+font-size: 1rem;
+font-family: "Abril Fatface", serif;
+font-weight: 400;
+font-style: normal;
+text-decoration: none;
+padding: 8px 16px;
+transition: background-color 0.3s ease;
+}
+ul li a:hover {
+opacity: 1;
+filter: drop-shadow(0 0 10px #d2cfcfd7) drop-shadow(0 0 20px #d2cfcfd7);
+cursor: pointer;
+}
+.logo {
+width: 4vh;
+height: 4vh;
+}
+
+/*The Footerr!!!!!!!!!!!!!!!!!!*/
+.line4 {
+margin-top: 8px;
+width: 100%;
+border: none;
+height: 1.8px;
+background-color: rgb(134, 117, 71);
+margin-bottom: 5px;
+}
+#nav-links-social {
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+position: absolute;
+left: 20px;
+}
+
+.home-icon {
+color: rgb(134, 117, 71);
+}
+
+.social-tabs {
+position: absolute;
+left: 50.5%;
+transform: translateX(-50%);
+text-align: center;
+z-index: 10;
+background: transparent;
+}
+
+.social-buttons {
+margin-top: 10px;
+display: flex;
+gap: 65px;
+align-items: center;
+justify-content: center;
+}
+
+.social-logo {
+display: block;
+margin: 0 auto;
+height: auto;
+width: 16vh;
+margin-bottom: 2vh;
+}
+
+.line3 {
+margin-top: 8px;
+width: 45vh;
+border: none;
+height: 2px;
+background-color: rgb(134, 117, 71);
+margin: 0 auto;
+margin-bottom: 2vh;
+}
+
+.social-tab-link {
+color: #d2cfcf;
+font-size: 28px;
+text-decoration: none;
+font-weight: 800;
+}
+
+.social-buttons :hover {
+opacity: 3;
+filter: drop-shadow(0 0 10px #000000e1) drop-shadow(0 0 20px #d2cfcfc9);
+cursor: pointer;
+font-size: 25px;
+}
+
+.numemail {
+position: absolute;
+right: 40px;
+text-align: right;
+color: #d2cfcf;
+}
+
+.phone,
+.email {
+font-size: 16px;
+font-weight: 600;
+text-align: center;
+color: #d2cfcf;
+text-decoration: none;
+}
+.copyright{
+color:#d2cfcf;
+font-size: 0.8rem;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+nav {
+width: 100%;
+}
+
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgbargba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 900px) {
+nav{
+width: 100%;
+}
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgbargba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgbargba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 700px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 77px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 255px;
+overflow: hidden;
+transition: height 0.6s ease;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 340px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1.5rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 38vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 40px;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 18px;
+}
+
+.phone,
+.email {
+font-size: 24px;
+}
+}
+
+@media screen and (max-width: 500px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 56px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 200px;
+overflow: hidden;
+transition: height 0.6s ease;
+border-radius: 3px;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 280px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 50vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 2.5rem;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 0.8rem;
+}
+
+.phone,
+.email {
+font-size: 1rem;
+text-decoration: none;
+}
+}
+
+@media screen and (max-width: 400px) {
+.hamburger div {
+width: 3vh;
+margin: 4px;
+height: 3px;
+}
+
+.hamburger {
+display: flex;
+}
+
+ul {
+width: 100%;
+position: absolute;
+top: 56px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 200px;
+overflow: hidden;
+transition: height 0.6s ease;
+border-radius: 3px;
+}
+
+ul li {
+text-align: center;
+width: 100%;
+}
+
+ul.open {
+height: 280px;
+padding-top: 20px;
+}
+
+ul li a {
+padding: 15px 0;
+font-size: 1rem;
+}
+
+.hamburger.open div:nth-child(1) {
+transform: rotate(360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(2) {
+transform: rotate(-360deg) translate(0px);
+}
+
+.hamburger.open div:nth-child(3) {
+transform: rotate(360deg) translate(0px);
+}
+
+.line3 {
+width: 25vh;
+height: 3px;
+}
+
+.social-logo {
+margin-bottom: 2vh;
+width: 12vh;
+}
+
+.social-buttons {
+gap: 40px;
+}
+
+#section6 {
+padding-top: 0;
+height: 50vh;
+width: 100%;
+}
+
+#nav-links-social {
+display: none;
+}
+
+.social-tabs {
+margin-top: 0vh;
+}
+
+.social-tab-link {
+font-size: 2.5rem;
+margin-bottom: 5vh;
+margin-top: 2vh;
+}
+
+.numemail {
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.copyright {
+font-size: 0.8rem;
+}
+
+.phone,
+.email {
+font-size: 1rem;
+text-decoration: none;
+}
+}
+
+
+
+
+
+
+@media screen and (max-height: 900px) {
+ul {
+width: 100%;
+position: absolute;
+top: 55px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 200px;
+overflow: hidden;
+transition: height 0.7s ease;
+border-radius: 3px;
+}
+}
+
+@media screen and (max-height: 897px) {
+ul {
+width: 100%;
+position: absolute;
+top: 54.8px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 200px;
+overflow: hidden;
+transition: height 0.7s ease;
+border-radius: 3px;
+}
+}
+
+@media screen and (max-height: 800px) {
+ul {
+width: 100%;
+position: absolute;
+top: 52px;
+height: 0;
+right: 0;
+background-color: rgba(60, 60, 60, 0.845);
+flex-direction: column;
+width: 180px;
+overflow: hidden;
+transition: height 0.7s ease;
+border-radius: 3px;
+}
+
+}

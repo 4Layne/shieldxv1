@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SlideShow</title>
+<link rel="stylesheet" href="slideshow.css">
+
+<style>
+
+</style>
+
+</head>
+<body>
+<section class="container">
+      <div class="slider-wrapper">
+        <div class="slider" id="slider">
+          <img id="slider-img-1" src="photo/slide1.webp">
+          <img id="slider-img-2" src="photo/slide2.jpg">
+          <img id="slider-img-3" src="photo/slide3.jpg">
+          <img id="slider-img-4" src="photo/slide4.jpg">
+          <img id="slider-img-5" src="photo/slide5.jpg">
+          <img id="slider-img-6" src="photo/slide6.jpg">
+        </div>
+        <button class="arrow arrow-left" id="prevBtn">&#10094;</button>
+        <button class="arrow arrow-right" id="nextBtn">&#10095;</button>
+      </div>
+</section>
+
+<script>
+  const slider = document.getElementById('slider');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  // Calculate slide width based on slider container's first child
+  const slides = slider.querySelectorAll('img');
+  const slideWidth = slides[0].clientWidth;
+
+  let currentIndex = 0;
+
+  // Function to update slider position with smooth scrolling
+  function updateSliderPosition() {
+    slider.scrollTo({
+      left: currentIndex * slideWidth,
+      behavior: 'smooth'
+    });
+  }
+
+  // Next Button - Move forward and loop to the first image after the last one
+  nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    updateSliderPosition();
+  });
+
+  // Prev Button - Move backward and loop to the last image from the first one
+  prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    updateSliderPosition();
+  });
+
+  // Resize event listener to recalculate slideWidth in case of window resize
+  window.addEventListener('resize', () => {
+    slideWidth = slides[0].clientWidth;
+    updateSliderPosition();
+  });
+</script>
+
+</body>
+</html>

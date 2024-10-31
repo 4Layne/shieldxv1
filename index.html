@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans+KR:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="test1.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Carsen#1 </title>
+    <style>
+
+    </style>
+</head>
+<body>
+        <!--The hamburger menu-->
+
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" target="_blank" href="index.html"><i class="fa-solid fa-house"></i></label></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="ourwork.html">Our Work</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="contact.html">Contact</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+
+  </nav>
+
+    <!-- Section 1: Title, Tinted background and NNav bar-->
+<div id="section1">
+    <section>
+        <h1 class="title">SHIELD<span class="X">X</span></h1>
+        <h2 class="title-lower">REINFORCING HOMES WEAKEST POINTS</h2>
+    </section>
+
+</div>
+
+<!-- border between section 1 and section 2 -->
+<div class="section-border"></div>
+
+    <!-- Section 2: Fixed background with Click Buttons -->
+    <div id="section2">
+        <button class="scrollButton" id="scrollButton1" onclick="scrollToReviews()"></button>
+        <button class="scrollButton" id="scrollButton2" onclick="scrollToReviews()"></button>
+        <button class="scrollButton" id="scrollButton3" onclick="scrollToReviews()"></button>
+    </div>
+
+    <!-- Section 3: Fixed background with Reviews -->
+    <div id="section3">
+        <div class="info"><strong class="info-title1">Door Reinforcement</strong><br> We team up with Night Lock to strengthen door security, safeguarding your home against break-ins and providing a barricade to protect your valuables and loved ones.
+            <br><a class="service-link1" href="services.html" target="_blank">Click to Learn More</a></div>
+        <div class="info"><strong class="info-title1">Glass Reinforcement</strong><br>Applying security film to glass greatly enhances its structural integrity, making it much more difficult to break and gain access to the interior of the building or home.
+            <br><a class="service-link2" href="services.html" target="_blank">Click to Learn More</a></div>
+        <div class="info"><strong class="info-title1">Window Frame Reinforcement</strong><br>Windows are often considered one of the most vulnerable areas of a home. By applying security film, we not only reinforce the glass themselves but also enhance the strength of the window frames and hardware.
+            <br><a class="service-link3" href="services.html" target="_blank">Click to Learn More</a></div>
+    </div>
+
+    <script>
+        function scrollToReviews() {
+            document.getElementById("section3").scrollIntoView({ behavior: "smooth" });
+        }
+
+        // Function to detect when you're within 100px of the center of Section 2
+        window.addEventListener('scroll', function() {
+            const section2 = document.getElementById('section2');
+            const section2Center = section2.offsetTop + (section2.offsetHeight / 2);
+            const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+            if (Math.abs(scrollPosition - section2Center) < 360) {
+                // Show buttons if within 100px of center
+                document.getElementById('scrollButton1').style.display = 'inline-block';
+                document.getElementById('scrollButton2').style.display = 'inline-block';
+                document.getElementById('scrollButton3').style.display = 'inline-block';
+            } else {
+                // Hide buttons when not near the center
+                document.getElementById('scrollButton1').style.display = 'none';
+                document.getElementById('scrollButton2').style.display = 'none';
+                document.getElementById('scrollButton3').style.display = 'none';
+            }
+        });
+    </script>
+
+    <div id="section4">
+      <section class="img-container">
+        <div class="slider-wrapper">
+            <div class="slider" id="slider">
+                <img id="slider-img-1" src="photo/slide1.webp">
+                <img id="slider-img-2" src="photo/slide2.jpg">
+                <img id="slider-img-3" src="photo/slide3.jpg">
+                <img id="slider-img-4" src="photo/slide4.jpg">
+                <img id="slider-img-5" src="photo/slide5.jpg">
+                <img id="slider-img-6" src="photo/slide6.jpg">
+            </div>
+            <button class="arrow arrow-left" id="prevBtn">&#10094;</button>
+            <button class="arrow arrow-right" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+    
+    <script>
+        const slider = document.getElementById('slider');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        // Calculate slide width based on slider container's first child
+        const slides = slider.querySelectorAll('img');
+        const slideWidth = slides[0].clientWidth;
+
+        let currentIndex = 0;
+
+        // Function to update slider position with smooth scrolling
+        function updateSliderPosition() {
+            slider.scrollTo({
+                left: currentIndex * slideWidth,
+                behavior: 'smooth'
+            });
+        }
+
+        // Next Button - Move forward and loop to the first image after the last one
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateSliderPosition();
+        });
+
+        // Prev Button - Move backward and loop to the last image from the first one
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            updateSliderPosition();
+        });
+
+        // Resize event listener to recalculate slideWidth in case of window resize
+        window.addEventListener('resize', () => {
+            slideWidth = slides[0].clientWidth;
+            updateSliderPosition();
+        });
+    </script>
+
+    </div>
+
+<div id="section4-5">
+    <div class="text-container">
+        <p class="section4-5-text"><span class="section4-5-title">Title</span><br>
+             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+        layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+        'Content here, content here', making it look like readable English. Many desktop publishing packages and web page
+        editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites
+        still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+        (injected humour and the like). Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sstandard
+        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typespecimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remainingessentially
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,and more
+        recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+        recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    </div>
+</div>
+    <div id="section5">
+    <section class="youtube-container">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bNzEFd7zexM?si=gu23XfICRI210r7s"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    </div>
+
+<section id="section6">
+        <div class="social-tabs">
+            <input id="insta" type="radio" name="tabsMenu">
+            <input id="youtube" type="radio" name="tabsMenu">
+            <input id="facebook" type="radio" name="tabsMenu">
+            <input id="tiktok" type="radio" name="tabsMenu">
+    
+            <div class="social-buttons">
+                <a class="social-tab-link" href="https://www.instagram.com" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a class="social-tab-link" href="https://www.youtube.com" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="social-tab-link" href="https://www.facebook.com" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="social-tab-link" href="https://www.tiktok.com/explore" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="#" class="back-to-top" id="backToTopBtn"><i class="fa-solid fa-arrow-up"></i></a>
+
+            </div>
+        </div>
+</section>
+
+
+</div>
+</body>
+</html>

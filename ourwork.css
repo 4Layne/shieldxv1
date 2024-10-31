@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: rgba(23, 23, 23, 0.832);
+}
+
+.animate-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.animate-section.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+ #section1-contact {
+   height: auto;
+   padding: 150px;
+ }
+  .title-contact{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #d2cfcf;
+    font-size: 89px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    display: block;
+    animation: dropDown 1.5s ease-out forwards;
+    margin-bottom: 100px;
+    }
+  @keyframes dropDown {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 80px;
+  }
+  }
+  .line{
+    width: 650px;
+    border:none;
+    height: 3px;
+    background-color: #907c47;
+    margin: 0 auto;
+  }
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  margin-bottom: 25vh;
+}
+.image2 {
+  flex: 1;
+  padding-right: 0px;/*was 20*/
+}
+
+.image2 img {
+  max-width: 400px;
+  height: auto;
+}
+.image1,.image2,.image3,.image4,.image5{
+  margin-left: 9vh;
+  border-radius: 5px;
+}
+
+.image7{
+  margin-left: 7vh;
+  margin-right: 2vh;
+  width: 400px;
+}
+.image8{
+  margin-left: 7vh;
+  margin-right: 14vh;
+  width: 270px;
+}
+.image1:hover,
+.image2:hover,
+.image3:hover,
+.image4:hover,
+.image5:hover,
+.image6:hover,
+.image7:hover,
+.image8:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.text2 h2 {
+  margin-top: 10vh;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #d2cfcf;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.text2 p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #d2cfcf;
+  margin-left: 15vh;
+  margin-right: 15vh;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 25px;
+}
+.line2 {
+  width: 500px;
+  border: none;
+  height: 2px;
+  background-color: #b49c5a;
+  margin: 0 auto;
+  margin-bottom: 2vh;
+}
+.quote-section {
+  border: 4px solid #b49c5a;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  margin: 0 auto;
+  position: relative;
+  background: linear-gradient(45deg, #3c3c3cc0, #3c3c3c, #464545, #4a4a4ad4);
+  background-size: 300% 300%;
+  background-position: center;
+  animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.quote-text {
+  margin-top: 0vh;
+  color: #d2cfcf;
+  font-size: 1.8rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5;
+    width: 85vh;
+}
+.line-quote{
+  width: 300px;
+  border: none;
+  height: 3px;
+  background-color: #b49c5a;
+  margin: 0 auto;
+}
+.contact-h3{
+  margin-top: 5px;
+  font-size: 28px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.reach-h3{
+  margin-left: 15px;
+  margin-top: 20px;
+  font-size: 28px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.container{
+  width: 80%;
+}  
+#contact-box{
+  background-color: rgba(208, 206, 206, 0.835);
+  display: flex;
+  padding: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+.contact-left{
+  flex-basis: 65%;
+  padding: 0px 30px;
+  width: 48%;
+}
+.contact-right{
+  flex-basis: 30%;
+  border-radius: 10px;
+  padding: 0px;
+  width: 48%;
+  background:#b49c5a;
+}
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.input-group{
+  flex: 1;
+}
+.input-row, .input-group{
+  flex-basis: 45%;
+}
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 5px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+textarea{
+  width: 100%;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+label{
+  margin-bottom: 6px;
+  display: block;
+  color: black;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+button{
+  width: 100px;
+  outline: none;
+  font-weight: 600;
+  height: 35px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  margin-top: 15px;
+  background-color: rgb(180, 156, 90);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 2px;
+  font-size: 16px;
+}
+button:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 5px 20px 0px rgb(101, 88, 58);
+  background-color: rgb(164, 142, 82);
+}
+.contact-left h3{
+  color: black;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-right h3 {
+  color: black;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.reach-right-title{
+  padding-left: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.reach-right-text{
+  padding-left: 5px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+table {
+  width: 100%;
+}
+td.reach-right-title {
+  font-weight: bold;
+}
+tr td:first-child{
+  padding-right: 20px;
+}
+tr td{
+  padding-top: 20px;
+}
+  #section6 {
+  height: 35vh;
+  border-top: solid 2px rgb(88, 87, 87);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(45deg, rgb(46, 45, 45), #000000ab, rgba(43, 42, 42, 0.876), #0505055c);
+  background-size: 300% 300%;
+  background-position: center;
+  animation: color 12s ease-in-out infinite;
+  position: relative;
+  }
+
+ /* The slide for services section*/
+
+ 
